@@ -5,7 +5,7 @@ export default class Auth {
     domain: 'sihoang.auth0.com',
     clientID: '3UlDMj__MY-gpLTnAkVb2ylJntAAUMNe',
     redirectUri: process.env.REACT_APP_CALLBACK_URL || 'http://localhost:3000/callback',
-    audience: 'https://sihoang.auth0.com/userinfo',
+    audience: 'https://sihoang.auth0.com/api/v2/',
     responseType: 'token id_token',
     scope: 'openid profile'
   });
